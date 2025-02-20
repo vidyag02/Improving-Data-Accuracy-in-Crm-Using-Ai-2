@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Data Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/graphs">Graphs</a></li>
+            <li><a href="/duplicates">Duplicates</a></li>
+            <li><a href="/corrections">Corrections</a></li>
+            <li><a href="/accuracy">Data Accuracy</a></li> 
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to CRM Data Analysis</h1>
+        <p><bold>Enhance your CRM data accuracy by detecting **Duplicates** and **Missing Values**.</bold></p>
+
+        <div class="section">
+            <h2>Duplicate Records</h2>
+            {% if duplicate_chart %}
+                <img src="data:image/png;base64,{{ duplicate_chart }}" alt="Duplicate Records Chart">
+           
+            {% endif %}
+        </div>
+
+        <div class="section">
+            <h2>Missing Data</h2>
+            {% if missing_chart %}
+                <img src="data:image/png;base64,{{ missing_chart }}" alt="Missing Data Chart">
+            
+            {% endif %}
+        </div>
+
+        <footer>
+            <p>CRM Data Cleaning - Flask App | Designed for Accuracy & Efficiency</p>
+        </footer>
+    </div>
+
+</body>
+</html>

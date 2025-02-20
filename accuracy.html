@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Accuracy</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/accuracy.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/accuracy">Data Accuracy</a></li>
+        </ul>
+    </nav>
+    
+            <a href="/" class="back-button">Dashboard</a>
+    <div class="container">
+        <h1>CRM Data Accuracy</h1>
+        <p>Check how accurate your CRM dataset is after cleaning and corrections.</p>
+
+        <div class="accuracy-box">
+            <h2>Accuracy Score</h2>
+            <p><strong>Accuracy:</strong> <span id="accuracy-value">{{ accuracy|default(0) }}%</span></p>
+        </div>
+
+        <!-- Accuracy Chart -->
+        {% if accuracy_chart %}
+            <img src="data:image/png;base64,{{ accuracy_chart }}" alt="Accuracy Chart">
+        {% else %}
+            <p>No accuracy data available.</p>
+        {% endif %}
+
+        <p>Higher accuracy means fewer duplicate and missing values in your CRM dataset.</p>
+    </div>
+
+    <footer>
+        <p>CRM Data Cleaning - Flask App</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb; /* Light Blue Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-left: 5px solid #007bff; /* Blue border on the left */
+    text-align: center;
+}
+
+/* Page Title */
+h1 {
+    color: #0056b3; /* Dark Blue */
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    color: #ffc400;
+    font-size: 22px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffc400;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Move Dashboard Button to Left */
+.back-button {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 12px 20px;
+    background-color: #28a745; /* Green */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    position: absolute;
+    left: 20px;  /* Moves button to the left side */
+    top: 20px;   /* Adjust position from the top */
+}
+
+.back-button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* Chart Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}

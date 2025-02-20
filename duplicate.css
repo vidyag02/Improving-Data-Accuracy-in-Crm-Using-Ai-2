@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;  /* Light Blue Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for Table */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-left: 5px solid #007bff;  /* Blue border on the left */
+}
+
+/* Title */
+h1 {
+    color: #0056b3;  /* Dark Blue */
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* Table Header */
+th {
+    background-color: #007bff;  /* Blue */
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Rows */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+tr:nth-child(even) {
+    background-color: #e9f2ff; /* Light Blue */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White */
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #cce5ff; /* Lighter Blue */
+    transition: 0.3s;
+}
+
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #28a745; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #218838; /* Darker Green */
+}

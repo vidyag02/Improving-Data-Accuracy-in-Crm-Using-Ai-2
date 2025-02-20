@@ -1,0 +1,168 @@
+/* Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Background */
+body {
+    background-color: #e3f2fd; /* Light Blue Background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Title */
+h1 {
+    color: #0056b3;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Accuracy Box */
+.accuracy-box {
+    background: #eef5ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accuracy-box h2 {
+    color: #ffc400;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Accuracy Score */
+#accuracy-value {
+    font-size: 25px;
+    font-weight: bold;
+    color:  #007bff;
+    background: #dff9fb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Accuracy Chart */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Dashboard Button */
+/* Dashboard Button - Styled to the Left & Green */
+.back-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #28a745; /* Green Button */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    position: absolute;
+    left: 20px; /* Moves it to the left */
+    top: 86px;
+}
+
+.back-button:hover {
+    background-color: #218838; /* Darker Green on Hover */
+    transform: scale(1.05); /* Slight Zoom Effect */
+}
+
+.back-button:active {
+    transform: scale(0.95); /* Button Press Effect */
+}

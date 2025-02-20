@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duplicate Records</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/duplicate.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Duplicate Records</h1>
+        <a href="/" class="back-button">Dashboard</a>
+
+        {% if duplicates %}
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th>Company</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record1, record2 in duplicates[:5] %}  {# Show only first 5 records #}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ record1["Name"] }}</td>
+                    <td>{{ record1["Email"] }}</td>
+                    <td>{{ record1["Phone"] }}</td>
+                    <td>{{ record1["Address"] }}</td>
+                    <td>{{ record1["Company"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+            <p>No duplicate records found.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

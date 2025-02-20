@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corrections</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>DATA CORRECTIONS </h1>
+    <a href="/">Dashboard</a> 
+    <h2>Corrected Crm Records</h2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Company</th>
+        </tr>
+        {% for record in data %}
+        <tr>
+            <td>{{ record.Name }}</td>
+            <td>{{ record.Email }}</td>
+            <td>{{ record.Phone }}</td>
+            <td>{{ record.Address }}</td>
+            <td>{{ record.Company }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

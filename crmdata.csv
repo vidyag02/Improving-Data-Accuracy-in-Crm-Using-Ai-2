@@ -1,0 +1,35 @@
+
+ Customer_ID,Name,Email,Phone,Address,Company
+1001,John Doe,john@example.com,+15551234567,123 Main St,ABC Corp
+1002,Jane Smith,jane.smith@example.com,+15559874562,456 Oak St,XYZ Ltd
+1003,John Doe,john@example.com,+15551234567,123 Main St,ABC Corp
+1004,Emily Davis,,+15553456789,321 Maple St,Innovate Inc
+1005,David Brown,david.b@example.com,+15552345678,,BlueWave Solutions
+1006,Linda White,linda.white@example.com,,987 Elm St,TechVerse
+1007,Robert Lee,robert@example.com,+15556781234,654 Cedar St,
+1008,Susan Miller,susan.m@example.com,+15557654321,,Visionary Co
+1009,William Wilson,,+15556782345,369 Birch St,NextGen Enterprises
+1010,Jessica Martinez,jessica@example.com,+15559871234,741 Redwood St,ABC Corp
+1011,Daniel Anderson,,+15556784567,258 Ash St,XYZ Ltd
+1012,Laura Thomas,laura@example.com,+15553457890,,Innovate Inc
+1013,Kevin Harris,kevin.h@example.com,,963 Cherry St,Global Tech
+1014,Sophia Martin,sophia@example.com,+15557893456,852 Walnut St,
+1015,James Moore,james.m@example.com,+15558974567,753 Cypress St,Visionary Co
+1014,Sophia Martin,sophia@example.com,+15557893456,852 Walnut St,
+1016,Olivia Scott,olivia@example.com,,147 Magnolia St,BlueWave Solutions
+1017,Benjamin Green,benjamin@example.com,+15556781239,369 Poplar St,NextGen Enterprises
+1018,Charlotte Baker,charlotte.b@example.com,+15557657890,951 Dogwood St,TechVerse
+1019,Henry Carter,henry@example.com,,846 Spruce St,XYZ Ltd
+1020,Ava Nelson,,+15552347890,264 Beech St,ABC Corp
+1021,Ethan Adams,ethan@example.com,+15556783456,,Innovate Inc
+1022,Mia Hall,mia.h@example.com,+15559875678,135 Willow St,Visionary Co
+1020,Ava Nelson,,+15552347890,264 Beech St,ABC Corp
+1023,Alexander Young,alex@example.com,,369 Sycamore St,NextGen Enterprises
+1024,Isabella King,isabella@example.com,+15557894567,741 Fir St,Global Tech
+1025,Logan Wright,logan.w@example.com,+15558976543,369 Larch St,
+1026,Grace Perez,grace.p@example.com,,159 Alder St,TechVerse
+1024,Isabella King,isabella@example.com,+15557894567,741 Fir St,Global Tech
+1027,Lucas Cooper,lucas@example.com,+15556784590,258 Hickory St,XYZ Ltd
+1028,Chloe Edwards,chloe@example.com,,963 Maple St,BlueWave Solutions
+1029,Mason Turner,mason.t@example.com,+15553451234,369 Oakwood St,Innovate Inc
+1030,Sophie Bennett,sophie.b@example.com,+15556782390,,ABC Corp
